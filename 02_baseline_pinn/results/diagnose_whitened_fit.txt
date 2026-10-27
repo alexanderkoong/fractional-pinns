@@ -1,0 +1,30 @@
+==========================================================================
+POST-FIT DIAGNOSTICS -- whitened-full L1 on real data
+==========================================================================
+loaded fit from: params.pkl
+beta_hat = 0.1361   alpha head (a,b,c) = (-0.1434, +1.9098, +3.7078) [velocity ON]   alpha mean = 0.9689, min = 0.8082
+
+BETA LANDSCAPE (f, gamma frozen at the learned fit)
+--------------------------------------------------------------------------
+  whitened loss: min at beta = 0.131 (loss 2.7165e-03); at the fitted beta_hat: 2.7177e-03
+  gradient direction at the 0.1 bound: interior minimum
+    beta = 0.101: whitened 2.8965e-03   raw-L1 1.1386e-01
+    beta = 0.151: whitened 2.7503e-03   raw-L1 1.1456e-01
+    beta = 0.201: whitened 3.0519e-03   raw-L1 1.1650e-01
+    beta = 0.301: whitened 4.0421e-03   raw-L1 1.2580e-01
+    beta = 0.501: whitened 6.5014e-03   raw-L1 1.8756e-01
+    beta = 0.701: whitened 9.1563e-03   raw-L1 3.9206e-01
+    beta = 0.901: whitened 1.1856e-02   raw-L1 9.7276e-01
+
+DATA SHAPE AND RESIDUAL LOCATION
+--------------------------------------------------------------------------
+  zero-increment (plateau) share of all steps: 29.1%
+  negative increments (engagement removed): 0.00%
+  posts fully flat over the second half of the window: 6.0%
+  mean whitened residual contribution: plateau nodes 2.228e-03 vs jump nodes 2.918e-03
+
+IMPLIED PER-POST NOISE (whitening assumes ONE shared sigma)
+--------------------------------------------------------------------------
+  percentiles of sqrt(per-post whitened loss): p5=0.0274, p25=0.0361, p50=0.0461, p75=0.0577, p95=0.0815
+  corr(log implied sigma, log followers) = +0.001
+

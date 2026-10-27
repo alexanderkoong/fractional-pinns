@@ -1,0 +1,9 @@
+TEACHER-STUDENT SEGMENTED TRAINING (whitened-full, velocity head, no-decline 348)
+==========================================================================
+no-decline filter: kept 348 of 403 tweets
+velocity v: min 0.000 median 0.693 max 4.187
+
+segment 0 (nodes 0-3): beta=0.2277  head(a,b,c)=(-0.012,+3.597,-0.973)  alpha mean 0.747  implied sigma 0.03704  [48s]
+segment 1 (nodes 3-9): beta=0.7436  head(a,b,c)=(+2.499,+0.202,-3.214)  alpha mean 0.997  implied sigma 0.04348  [85s]
+segment 2 (nodes 9-16): beta=0.9891  head(a,b,c)=(+3.903,-1.577,-3.656)  alpha mean 0.997  implied sigma 0.03137  [90s]
+segment 3 (nodes 16-23): beta=0.9892  head(a,b,c)=(+0.116,+6.129,-0.595)  alpha mean 0.953  implied sigma 0.02269  [85s]

@@ -1,0 +1,6 @@
+PER-SEGMENT SYMBOLIC REGRESSION (PySR, standard config)
+==========================================================================
+segment 0: beta=0.2277   f(c) = x0*1.7939605 + 0.18553144 + 0.18497752/(x0 - 1.0927554)   (corr vs NN 0.99960)
+segment 1: beta=0.7436   f(c) = x0*(3.0545263 - 2.9919586*x0)   (corr vs NN 0.98837)
+segment 2: beta=0.9891   f(c) = x0*(x0 - 0.9759003)*(-4.7721124)   (corr vs NN 0.66837)
+segment 3: beta=0.9892   f(c) = x0*(-1*5.80983 + 7.8357487/(x0 + 0.28688404))   (corr vs NN 0.96499)

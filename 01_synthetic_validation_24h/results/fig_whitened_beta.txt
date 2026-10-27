@@ -1,0 +1,11 @@
+fig_whitened_beta.pdf source numbers (N = 24)
+============================================================
+panel (a) beta-only argmin vs sigma [0.0, 0.005, 0.02, 0.05]:
+  pointwise: 0.4729, 0.4350, 0.2613, 0.1100
+       diag: 0.4787, 0.4389, 0.3025, 0.1672
+       full: 0.4899, 0.4898, 0.4890, 0.4815
+panel (b) joint beta_hat vs sigma [0.0, 0.005, 0.02, 0.05] (means over 2 draws for sigma > 0):
+  pointwise: 0.4573, 0.3812, 0.1032, 0.1000
+       diag: 0.4662, 0.3917, 0.1977, 0.1000
+       full: 0.4872, 0.4883, 0.4895, 0.4022
+saved: /Users/alexkoong/Desktop/jmlmc code/24hr model verification/results/fig_whitened_beta.pdf

@@ -1,0 +1,8 @@
+# Tested with Python 3.9.23 on macOS (CPU only)
+numpy==1.26.4
+scipy==1.11.4
+matplotlib>=3.5
+jax==0.4.30
+jaxlib==0.4.30
+pysr==1.5.9
+pandas==2.2.2
